@@ -1,0 +1,30 @@
+# CMake / 编译产物
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.o
+*.a
+*.so
+*.out
+
+# 运行时日志与测试落盘
+logs/
+*.log
+keeserver_async.log
+
+# 编辑器与系统
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 本地环境
+.env
+.env.*
